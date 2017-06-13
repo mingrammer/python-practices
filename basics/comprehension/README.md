@@ -6,7 +6,7 @@ There are four kinds of comprehensions: **list**, **dict**, **set**, **generator
 
 Let's look at each comprehension.
 
-
+<br>
 
 ## List comprehension
 
@@ -65,6 +65,8 @@ flatten = [e for r in matrix for e in r]
 # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 ```
 
+<br>
+
 ## Set comprehension
 
 **Set comprehension** is exact same to list comprehension. But it create a set, not list.
@@ -80,6 +82,8 @@ no_primes = [j for i in range(2, 9) for j in range(i * 2, 50, i)]
 no_primes = {j for i in range(2, 9) for j in range(i * 2, 50, i)}
 # {4, 6, 8, 9, 10, 12, 14, 15, 16, 18, 20, 21, 22, 24, 25, 26, 27, 28, 30, 32, 33, 34, 35, 36, 38, 39, 40, 42, 44, 45, 46, 48, 49}
 ```
+
+<br>
 
 ## Dict comprehension
 
@@ -99,6 +103,8 @@ score_tuples = [('math', 90), ('history', 80), ('english', 95), ('computer engin
 score_dict = {t[0]: t[1] for t in score_tuples}
 # {'math': 90, 'history': 80, 'english': 95, 'computer engineering': 100}
 ```
+
+<br>
 
 ## Generator expression
 
