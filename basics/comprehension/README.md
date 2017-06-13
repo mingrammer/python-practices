@@ -100,9 +100,9 @@ score_dict = {t[0]: t[1] for t in score_tuples}
 # {'math': 90, 'history': 80, 'english': 95, 'computer engineering': 100}
 ```
 
-## Generator comprehension
+## Generator expression
 
-**Generator comprehension** is a special comprehension form rather than above ones. This generates the **generator** which is an iterator returns a single value at a time, not returns all elements at once.
+**Generator expression** is a special comprehension form rather than above ones. This generates the **generator** which is an iterator returns a single value at a time, not returns all elements at once.
 
 I will introducte the details of **generator** on other section, so I just focus on "comprehension" in here.
 

@@ -81,7 +81,7 @@ def transform_tuple_list_to_dict():
 
 
 """
-Generator comprehension examples
+Generator expression examples
 """
 def generate_square_numbers():
     # Make a generator to generate the square numbers
@@ -106,7 +106,7 @@ if __name__ == '__main__':
     print(combine_two_list_to_dict())
     print(transform_tuple_list_to_dict())
 
-    # Generator comprehensions
+    # Generator expressions
     gen = generate_square_numbers()
     print(gen)
     print(next(gen))
