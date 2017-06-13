@@ -110,9 +110,9 @@ score_dict = {t[0]: t[1] for t in score_tuples}
 
 **Generator expression** is a special comprehension form rather than above ones. This generates the **generator** which is an iterator returns a single value at a time, not returns all elements at once.
 
-I will introducte the details of **generator** on other section, so I just focus on "comprehension" in here.
+I will introducte the details of **generator** on other section, so I just focus on "expression" in here.
 
-Generator comprehension is easy to use, which is same to other comprehensions.
+Generator expression is easy to use, which is same to other comprehensions.
 
 ```python
 # This is a generator to yield square numbers
