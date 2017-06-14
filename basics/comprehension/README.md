@@ -57,9 +57,9 @@ without_vowels = ''.join([c for c in word if c not in ['a', 'e', 'i', 'o', 'u']]
 
 # Flatten a matrix
 matrix = [
-  [1, 2, 3, 4],
-  [5, 6, 7, 8],
-  [9, 10, 11, 12],
+    [1, 2, 3, 4],
+    [5, 6, 7, 8],
+    [9, 10, 11, 12],
 ]
 flatten = [e for r in matrix for e in r]
 # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
