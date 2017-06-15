@@ -54,6 +54,7 @@ def flatten_a_matrix():
     flatten = [e for r in matrix for e in r]
     return flatten
 
+
 """
 Set comprehension examples
 """
