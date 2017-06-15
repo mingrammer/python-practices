@@ -25,6 +25,6 @@ It covers following topics and provides the explains and sample source code of e
 ## Practices
 
 * [basics](/basics)
+  * [arguments](/basics/arguments)
   * [comma](/basics/comma)
   * [comprehension](/basics/comprehension)
-
