@@ -74,6 +74,7 @@ def combine_two_list_to_dict():
     score_dict = {key: value for key, value in zip(subjects, scores)}
     return score_dict
 
+
 def transform_tuple_list_to_dict():
     # Transform the tuple list to dict form
     score_tuples = [('math', 90), ('history', 80), ('english', 95), ('computer engineering', 100)]
