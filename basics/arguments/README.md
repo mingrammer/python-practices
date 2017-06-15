@@ -38,7 +38,7 @@ def calculator(a, b, op='add', raise_err=True):
         return a * b
     if op == 'div':
         return a / b
-   	if raise_err:
+    if raise_err:
     	raise ValueError('Not supported errors')
         
 # The function use default value if we do not pass the keyword argument
