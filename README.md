@@ -5,6 +5,7 @@ It covers following topics and provides the explains and sample source code of e
 
 * **Basic**: Basic python features including some advanced practices
 * **Standard Library**: Deep dive into standard libraries of Python
+* **Configuration**: How to handle the configuration in Python
 * **Design Patterns**: Introduces common design patterns for Python
 * **Testing**: Covers simple and practical testing practices
 * **Regex**: How to use regular expressions in Python
@@ -28,3 +29,5 @@ It covers following topics and provides the explains and sample source code of e
   * [arguments](/basics/arguments)
   * [comma](/basics/comma)
   * [comprehension](/basics/comprehension)
+* [configuration](/configuration)
+  * [management](/configuration/management)
