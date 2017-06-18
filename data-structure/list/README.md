@@ -124,7 +124,6 @@ print(numbers.index(2, 4, 6)) # on [X, X, X, X, 3, 4, X]
 # Traceback (most recent call last):
 #   File "<stdin>", line 1, in <module>
 # ValueError: 2 is not in list
-"""
 ```
 
 #### insert
