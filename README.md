@@ -4,6 +4,7 @@ A collection of python practices for various topics.
 It covers following topics and provides the explains and sample source code of each topics.
 
 * **Basic**: Basic python features including some advanced practices
+* **Data Structure**: Introduces the data structures of Python
 * **Standard Library**: Deep dive into standard libraries of Python
 * **Configuration**: How to handle the configuration in Python
 * **Design Patterns**: Introduces common design patterns for Python
@@ -29,5 +30,7 @@ It covers following topics and provides the explains and sample source code of e
   * [arguments](/basics/arguments)
   * [comma](/basics/comma)
   * [comprehension](/basics/comprehension)
+* [data structure](/data-structure)
+  * [list](/data-structure/list)
 * [configuration](/configuration)
   * [management](/configuration/management)
