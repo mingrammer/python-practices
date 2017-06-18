@@ -58,7 +58,9 @@ There are some useful methods to handle the list easily. Here is a list of metho
 * **remove**(value) → None: Remove first occurrence of value
 * **reverse**(): Reverse the list
 * **sort**(key=None, reverse=False) → None: Stable sort the list 
-* **copy**() → list: Return a shallow copy of L
+* **copy**() → list: Return a shallow copy of a list
+
+<br>
 
 What is difference between `append` abd `extend`?
 
@@ -119,14 +121,13 @@ print(numbers.index(1, 1)) # on [X, 2, 1, 2, 3, 4, 2]
 print(numbers.index(2, 1)) # on [X, 2, 1, 2, 3, 4, 2]
 # 1
 print(numbers.index(2, 4, 6)) # on [X, X, X, X, 3, 4, X]
-"""
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-ValueError: 2 is not in list
+# Traceback (most recent call last):
+#   File "<stdin>", line 1, in <module>
+# ValueError: 2 is not in list
 """
 ```
 
-### insert
+#### insert
 
 ```python
 numbers = [1, 2, 3, 4, 5]
@@ -134,7 +135,7 @@ numbers.insert(2, 6)
 # numbers: [1, 2, 6, 3, 4, 5]
 ```
 
-### pop
+#### pop
 
 ```python
 numbers = [1, 2, 3, 4, 5]
@@ -151,11 +152,9 @@ numbers = [1, 2, 3, 4, 5]
 numbers.remove(3)
 # numbers: [1, 2, 4, 5]
 numbers.remove(6)
-"""
-Traceback (most recent call last):
-  File "<stdin>", line 2, in <module>
-ValueError: list.remove(x): x not in list
-"""
+# Traceback (most recent call last):
+#   File "<stdin>", line 2, in <module>
+# ValueError: list.remove(x): x not in list
 ```
 
 #### reverse
@@ -290,6 +289,8 @@ for i in range(len(matrix)):
 #     [4, 8, 12, 16],
 # ]
 ```
+
+<br>
 
 ## List comprehension
 
