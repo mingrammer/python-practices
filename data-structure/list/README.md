@@ -240,7 +240,7 @@ print(len(arr))
 
 # Convert the string list to a single string with a delimiter
 fruits = ', '.join(['apple', 'pear', 'banana', 'kiwi'])
-# fruits = 'apple, pear, banana, kiwi'
+# fruits: 'apple, pear, banana, kiwi'
 
 # Find the maximum or minimum value of a list
 max(arr)
