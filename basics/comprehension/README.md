@@ -4,7 +4,11 @@ The **comprehension** is an elegant way to define and create interable object in
 
 There are four kinds of comprehensions: **list**, **dict**, **set**, **generator**.
 
-Let's look at each comprehension.
+In fact, for generator, there is different concept called **generator expression** (not generator comprehension), but just has same form to comprehension.
+
+So, to be precise, there are three kinds of comprehensions: **list**, **dict**, **set** and just one kind of expression: **generator**.
+
+Let's look at each comprehension and generator expression.
 
 <br>
 
