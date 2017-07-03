@@ -27,7 +27,7 @@ It covers following topics and provides the explains and sample source code of e
 ## Practices
 
 * [basics](/basics)
-  * [arguments](/basics/arguments)
+  * [arguments (including `*args` and `**kwargs`)](/basics/arguments)
   * [comma](/basics/comma)
   * [comprehension](/basics/comprehension)
 * [data structure](/data-structure)
