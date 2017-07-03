@@ -213,7 +213,7 @@ print(numbers[1:6:2])
 # [2, 4, 6]
 ```
 
-You can also use the **+** and ***** for list type as following:
+You can also use the **+** and **\*** for list type as following:
 
 ```python
 # The + operator can be used to 'extend' a list
