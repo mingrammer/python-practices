@@ -18,7 +18,7 @@ Let’s look at each case.
 
 <br>
 
-### When used in interpreter
+## When used in interpreter
 
 The python interpreter stores the last expression value to the special variable called ‘_’. This feature has been used in standard CPython interpreter first and you could use it in other Python interpreters too.
 
@@ -35,7 +35,7 @@ The python interpreter stores the last expression value to the special variable 
 
 <br>
 
-### **For Ignoring the values**
+## **For Ignoring the values**
 
 The *underscore* is also used for ignoring the specific values. If you don’t need the specific values or the values are not used, just assign the values to *underscore*.
 
@@ -57,13 +57,13 @@ for _, val in list_of_tuple:
 
 <br>
 
-### Give special meanings to name of variables and functions
+## Give special meanings to name of variables and functions
 
 The *underscore* may be most used in ‘naming’. The PEP8 which is Python convention guideline introduces the following 4 naming cases.
 
 <br>
 
-**_single_leading_underscore**
+### _single_leading_underscore
 
 This convention is used for declaring **private** variables, functions, methods and classes in a module. Anything with this convention are ignored in `from module import *`.
 
@@ -89,7 +89,7 @@ class _Base: # private class
 
 <br>
 
-**single_trailing_underscore_**
+### single_trailing_underscore_
 
 This convention could be used for avoiding conflict with Python keywords or built-ins. You might not use it often.
 
@@ -101,7 +101,7 @@ list_ = List.objects.get(1) # Avoid conflict with 'list' built-in type
 
 <br>
 
-**__double_leading_underscore**
+### __double_leading_underscore
 
 This is about syntax rather than a convention. *double underscore* will mangle the attribute names of a class to avoid conflicts of attribute names between classes. (so-called “mangling” that means that the compiler or interpreter modify the variables or function names with some rules, not use as it is) 
 The mangling rule of Python is adding the “_ClassName” to front of attribute names are declared with *double underscore*._
@@ -126,7 +126,7 @@ Because of the attributes named with *double underscore *will be mangled like ab
 
 <br>
 
-**\_\_double_leading_and_trailing_underscore\_\_**
+### __double_leading_and_trailing_underscore__
 
 This convention is used for special variables or methods (so-called “magic method”) such as `__init__`,  `__len__`. These methods provides special syntactic features or does special things. For example,  `__file__` indicates the location of Python file,  `__eq__` is executed when `a == b` expression is excuted. 
 A user of course can make custom special method, it is very rare case, but often might modify the some built-in special methods. (e.g. You should initialize the class with `__init__` that will be executed at first when a instance of class is created.)
@@ -142,7 +142,7 @@ class A:
 
 <br>
 
-### As Internationalization(i18n)/Localization(l10n) functions
+## As Internationalization(i18n)/Localization(l10n) functions
 
 It is just convention, does not have any syntactic functions. That is, the underscore does not means **i18n/l10n**, and it is just a convention that binds the **i18n/l10n** to *underscore* variable has been from C convention.
 The built-in library `gettext` which is for **i18n/l10n ** uses this convention, and Django which is Python web framework supports **i18n/l10n** also introduces and uses this convention.
@@ -162,7 +162,7 @@ print(_('This is a translatable string.'))
 
 <br>
 
-### To separate the digits of literal number
+## To separate the digits of literal number
 
 This feature was added in Python 3.6. It is used for separating digits of numbers using *underscore * for readability.
 
