@@ -73,7 +73,8 @@ class DevelopmentConfig(Config):
     AWS_S3_BUCKET_NAME = 'aws-s3-bucket-name-for-dev'
     
     DATABASE_URI = 'database-uri-for-dev'
-    
+
+
 class TestConfig(Config):
     DEBUG = True
     TESTING = True
