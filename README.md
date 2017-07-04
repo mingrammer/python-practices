@@ -16,13 +16,10 @@ It covers following topics and provides the explains and sample source code of e
 * **Concurrency**: How to process the multithread/multiprocess in Python
 * **Cryptography**: Introduce some ways to handle the encryption with common crypto functions in Python
 * **Data Processing**: Introduce the Numpy, Scipy to handle the dataset efficiently
-
-
 * **CLI**: How to make a CLI with Python
-
 * **C Extensions**: How to use the C modules in Python
 
-  ​
+<br>
 
 ## Practices
 
@@ -30,6 +27,7 @@ It covers following topics and provides the explains and sample source code of e
   * [arguments](/basics/arguments)
   * [comma](/basics/comma)
   * [comprehension](/basics/comprehension)
+  * [underscore](/basics/underscore)
 * [data structure](/data-structure)
   * [list](/data-structure/list)
 * [configuration](/configuration)
