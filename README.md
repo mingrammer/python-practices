@@ -60,11 +60,7 @@ It covers following topics and provides the explains and sample source code of e
   * fronzenset
   * string
   * stack
-  * * array
-    * linked list
   * queue
-  * * array
-    * linked list
   * linked list
   * heap
   * tree
