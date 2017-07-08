@@ -27,6 +27,13 @@ It covers following topics and provides the explains and sample source code of e
 
 <br>
 
+## Notes
+> *This being considers only Python 3.6*
+>
+> *These may not be "best practices", so you can contribute best one for each topics*
+
+<br>
+
 ## Practices
 
 * [basics](/basics)
