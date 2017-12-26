@@ -1,7 +1,17 @@
-# Python Practices
-A collection of python practices for various topics. 
+<p align="center">
+  <a href="/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg"/></a>
+  <a href="https://www.python.org/dev/peps/pep-0008"><img src="https://img.shields.io/badge/code%20style-PEP8-brightgreen.svg"/></a>
+</p>
 
-It covers following topics and provides the explains and sample source code of each topics.
+<h1 align="center">Python Practices</h1>
+
+<p align="center">
+  A curated collection of python practices for various topics
+</p>
+
+<br>
+
+This covers following topics with explanations and sample source codes.
 
 * **Basic**: Basic python features including some advanced practices
 * **Data Structure**: Introduces the data structures of Python
