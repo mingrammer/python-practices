@@ -14,8 +14,6 @@
 
 > These may not be **best practices**, so you can contribute best one for each topics. Issues and PRs are very welcome
 
-<br>
-
 ## Table of Contents
 
 > This covers following topics with explanations and sample source codes.
@@ -41,10 +39,6 @@
 * [`Debugging`](#debugging)
 * [`Profiling`](#profiling)
 * [`Easter Egg`](#easter-egg)
-
-<br>
-
-<br>
 
 ## Topics
 
