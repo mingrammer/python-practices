@@ -1,3 +1,5 @@
+<br><br>
+
 <h1 align="center">Python Practices</h1>
 
 <p align="center">
@@ -10,41 +12,41 @@
   A curated collection of python practices for various topics
 </p>
 
-<br>
+<br><br>
 
-> These may not be **best practices**, so you can contribute best one for each topics. Issues and PRs are very welcome
+> These may not be **best practices**, so you can contribute best one for each topics.
+>
+> Issues and PRs are very welcome.
 
 ## Table of Contents
 
 > This covers following topics with explanations and sample source codes.
 
-* [`Basic`](#basic)
-* [`Data Structure`](#data-structure)
-* [`Standard Library`](#standard-library)
-* [`Meta Programming`](#meta-programming)
-* [`Configuration`](#configuration)
-* [`Design Patterns`](#design-patterns)
-* [`Testing`](#testing)
-* [`Regex`](#regex)
-* [`Networking`](#networking)
-* [`Database`](#database)
-* [`Data Handling`](#data-handling)
-* [`Data Processing`](#data-processing)
-* [`Concurrency`](#concurrency)
-* [`API Programming`](#api-programming)
-* [`Cryptography`](#cryptography)
-* [`Functional Programming`](#functional-programming)
-* [`CLI`](#cli)
-* [`C Extensions`](#c-extensions)
-* [`Debugging`](#debugging)
-* [`Profiling`](#profiling)
-* [`Easter Egg`](#easter-egg)
+* [Basic](#basic)
+* [Data Structure](#data-structure)
+* [Standard Library](#standard-library)
+* [Meta Programming](#meta-programming)
+* [Configuration](#configuration)
+* [Design Patterns](#design-patterns)
+* [Testing](#testing)
+* [Regex](#regex)
+* [Networking](#networking)
+* [Database](#database)
+* [Data Handling](#data-handling)
+* [Data Processing](#data-processing)
+* [Concurrency](#concurrency)
+* [API Programming](#api-programming)
+* [Cryptography](#cryptography)
+* [Functional Programming](#functional-programming)
+* [CLI](#cli)
+* [C Extensions](#c-extensions)
+* [Debugging](#debugging)
+* [Profiling](#profiling)
+* [Easter Egg](#easter-egg)
 
 ## Topics
 
-## [Basic](/basic)
-
-Basic python features including some advanced practices
+### [Basic](/basic)
 
 * [arguments (including `*args` and `**kwargs`)](/basic/arguments)
 * builtin functions
@@ -69,9 +71,7 @@ Basic python features including some advanced practices
 * type hinting
 * [underscore](/basics/underscore)
 
-## [Data Structure](/data-structure)
-
-Introduces the data structures of Python
+### [Data Structure](/data-structure)
 
 * [list](/data-structure/list)
 * tuple
@@ -86,9 +86,7 @@ Introduces the data structures of Python
 * tree
 * graph
 
-## Standard Library
-
-Deep dive into standard libraries of Python
+### Standard Library
 
 * abc
 * array
@@ -105,46 +103,34 @@ Deep dive into standard libraries of Python
 * queue
 * random
 
-## Meta Programming
-
-How to meta programming in Python
+### Meta Programming
 
 * metaclass
 
-## [Configuration](/configuration)
-
-How to handle the configuration in Python
+### [Configuration](/configuration)
 
 * [4 ways to manage the configuration](/configuration/management)
 
-## Design Patterns
-
-Introduces common design patterns for Python
+### Design Patterns
 
 * singleton
 * factory
 * adapter
 * observer
 
-## Testing
-
-Covers simple and practical testing practices
+### Testing
 
 * unittest
 * pytest
 * doctest
 * coverage
 
-## Regex
-
-How to use regular expressions in Python
+### Regex
 
 * basic
 * complex practices
 
-## Networking
-
-Network programming with Python
+### Networking
 
 * http
 * tcp
@@ -153,9 +139,7 @@ Network programming with Python
 * ftp
 * socket
 
-## Database
-
-How to use the databases in Python
+### Database
 
 * sqlite3
 * mysql
@@ -166,78 +150,56 @@ How to use the databases in Python
   * sqlalchemy
   * django orm
 
-## Data Handling
-
-Introduces the ways for handling the json, xml and base64 with Python
+### Data Handling
 
 * json
 * xml
 * base64
 * proto buffer
 
-## Data Processing
-
-Introduce the Numpy, Scipy to handle the dataset efficiently
+### Data Processing
 
 * numpy
 * scipy
 
-## Concurrency
-
-How to handle the concurrent and parallel jobs in Python
+### Concurrency
 
 * multiprocessing
 * multithreading
 * asyncio
 * celery
 
-## API Programming
-
-How to API programming for several API architectures with Python
+### API Programming
 
 * restful api
 * graphql
 * rpc
 
-## Cryptography
-
-Introduces some ways to handle the encryption with common crypto functions in Python
+### Cryptography
 
 * sha
 * md5
 * hmac
 
-## Functional Programming
+### Functional Programming
 
-Functional programming with Python
- 
 * reactive python
 
-## CLI
-
-How to make a CLI with Python
+### CLI
 
 * simple cli
 * complex cli
 
-## C Extensions
-
-How to use the C modules in Python
+### C Extensions
 
 * linking C modules
 
 ## Debugging
 
-How to debug Python programs
-
 * pdb
 
-## Profiling
-
-How to profile the Python programs
+### Profiling
 
 * benchmark
 
-## Easter Egg
-
-Funny hidden easter eggs of Python
+### Easter Egg
