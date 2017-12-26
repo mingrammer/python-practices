@@ -18,7 +18,7 @@
 
 > This covers following topics with explanations and sample source codes.
 
-- [`Basic`](#basic)
+* [`Basic`](#basic)
 * [`Data Structure`](#data-structure)
 * [`Standard Library`](#standard-library)
 * [`Meta Programming`](#meta-programming)
