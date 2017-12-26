@@ -12,7 +12,7 @@
   A curated collection of python practices for various topics
 </p>
 
-<br><br>
+<br><br><br>
 
 > These may not be **best practices**, so you can contribute best one for each topics.
 >
