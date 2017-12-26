@@ -194,7 +194,7 @@
 
 * linking C modules
 
-## Debugging
+### Debugging
 
 * pdb
 
