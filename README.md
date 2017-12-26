@@ -51,8 +51,8 @@
 * [arguments (including `*args` and `**kwargs`)](/basic/arguments)
 * builtin functions
 * class
-* [comma](/basics/comma)
-* [comprehension](/basics/comprehension)
+* [comma](/basic/comma)
+* [comprehension](/basic/comprehension)
 * decorator
 * documentation
 * exceptions handling
@@ -69,7 +69,7 @@
 * string formatting
 * string operations
 * type hinting
-* [underscore](/basics/underscore)
+* [underscore](/basic/underscore)
 
 ### [Data Structure](/data-structure)
 
